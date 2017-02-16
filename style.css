@@ -2,43 +2,57 @@ body {
 	color: #FFFFFF;
 }
 
-#hero {
-  background-image:url('images/comp.jpg');
-  background-size:cover;
-/*  position:relative;*/
-  height: 100vh;
+.laura-title {
+	color: #D9BA60;
 }
-
-.bio {
-	padding: 20px;
-}
-
-.bio span {
-   position: absolute;
-   bottom: 50vh;
-   right: 0;
-   color: #FFFFFF;
-   padding-right: 10px;
-}
-
-.bio span a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
 .project {
-/*	height: 160px;*/
-	width: 95%;
+	width: 60%;
 	border: 5px solid #E7E7E7;
 	margin: 5px;
 }
 
-.quarter {
-	height: 50vh;
-	background-color: #000000;
+.parallax {
+    background-image: url("images/keyboard.jpg");
+    min-height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.quarter2 {
-	background-color: #546248;
-	height: 50vh;
+.portfolio-section {
+	height: 700px;
+	background-color: #D9BA60;
+}
+
+.portfolio-title {
+	margin-top: 0px;
+}
+
+.parallax2 {
+    background-image: url("images/book.jpeg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-section {
+	height: 400px;
+	background-color: #D9BA60;
+	font-size: 32px;
+}
+.parallax3 {
+    background-image: url("images/mtnbike.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-text {
+	width: 70%;
+	margin: 0 auto;
 }
