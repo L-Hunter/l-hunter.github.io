@@ -58,3 +58,7 @@ body {
 	width: 70%;
 	margin: 0 auto;
 }
+
+a, a:hover {
+    color: #FFFFFF;
+}
