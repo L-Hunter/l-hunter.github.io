@@ -21,12 +21,13 @@ body {
 }
 
 .portfolio-section {
-	height: 700px;
+	height: 750px;
 	background-color: #D9BA60;
+    padding-top: 55px;
 }
 
 .portfolio-title {
-	margin-top: 0px;
+    font-size: 34px;
 }
 
 .parallax2 {
@@ -41,7 +42,8 @@ body {
 .contact-section {
 	height: 400px;
 	background-color: #D9BA60;
-	font-size: 32px;
+	font-size: 28px;
+    padding-top: 55px;
 }
 .parallax3 {
     background-image: url("images/mtnbike.jpg");
