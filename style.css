@@ -93,12 +93,9 @@ a, a:hover {
     }
 }
 
-@media all and (max-width: 1000px){
-
-
-}
 
 @media all and (max-width: 767px){
-  
+  .portfolio-section {
+    height: 1200px;
 }
 
