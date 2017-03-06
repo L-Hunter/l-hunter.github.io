@@ -113,6 +113,11 @@ a, a:hover {
     .contact-section {
         height: auto;
         padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .social-icon {
+        width: 65px;
     }
 
     section:nth-of-type(odd) {
@@ -123,6 +128,13 @@ a, a:hover {
     section:nth-of-type(even) {
         background-image: url("");
         min-height: 0px; 
+    }
+}
+
+@media all and (max-width: 450px){ 
+
+    .social-icon {
+        width: 45px;
     }
 }
 
