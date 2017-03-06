@@ -101,7 +101,18 @@ a, a:hover {
     }
 
     .portfolio-section {
-        height: 1200px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .bio-section {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .contact-section {
+        height: auto;
+        padding-bottom: 20px;
     }
 
     section:nth-of-type(odd) {
