@@ -136,5 +136,9 @@ a, a:hover {
     .social-icon {
         width: 45px;
     }
+
+    .contact-section {
+        font-size: 18px;
+    }
 }
 
