@@ -83,7 +83,7 @@ section:nth-of-type(2) {
 
 section:nth-of-type(3) {
     background-image: url("images/mtnbike.jpg");
-    min-height: 500px; 
+    min-height: 800px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ section:nth-of-type(3) {
 }
 
 .contact-section {
-    height: 400px;
+    height: 800px;
     background-color: #D9BA60;
     font-size: 28px;
     padding-top: 55px;
@@ -106,6 +106,13 @@ a, a:hover {
     color: #FFFFFF;
 }
 
+.social {
+  width: 45%;
+  float: left;
+  padding-top: 24px;
+}
+
+
 .social-list {
     list-style-type: none;
 }
@@ -113,6 +120,29 @@ a, a:hover {
 .social-icon {
     width: 75px;
     padding: 3px;
+}
+
+.contact-form {
+  width: 45%;
+  float: left;
+}
+
+#contact-button {
+  background-color: #000000;
+}
+
+@media all and (max-width: 1200px){
+  .contact-section {
+    height: 1000px;
+  }
+
+  .social {
+    width: 80%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
 }
 
 @media all and (max-width: 1050px){
@@ -138,7 +168,7 @@ a, a:hover {
     }
 
     .contact-section {
-        height: auto;
+        height: 1000px;
         padding-bottom: 20px;
         font-size: 20px;
     }
