@@ -127,6 +127,10 @@ a, a:hover {
   float: left;
 }
 
+.form-font {
+  color: #000000;
+}
+
 #contact-button {
   background-color: #000000;
 }
